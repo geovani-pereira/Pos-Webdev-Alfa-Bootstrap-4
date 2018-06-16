@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+
+$cor1:  #26c9FF;
+$cor2:  #0085b2;
+$cor3: #0085b2;
+$texto: #333;
+$fonte: "Open Sans", Tahoma, Verdana;
+
+
+body, html{
+	height: 100%;
+}
+body{
+	font: 16px $fonte;
+	color: $texto;
+	padding-top:80px;
+}
+
+
+
+h1{
+	text-align: center;
+	color: $cor2;
+	font-weight: 800;
+	margin:20px;
+}
+
+section{
+	padding: 50px 0;
+}
+
+main{
+	height: 100%;
+	overflow:scroll;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
